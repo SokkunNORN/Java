@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\sokkun.norn\Documents\.metadata\.plugins\org.eclipse.jdt.core
+3673852965.index
+864370231.index
+3653968980.index
+274550510.index
+1441325984.index

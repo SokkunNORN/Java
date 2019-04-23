@@ -1,0 +1,29 @@
+package sokkunNorn_CH5_HW1;
+import java.util.*; 
+import java.util.ArrayList;
+import java.util.List;
+public class Student {
+
+	String firstName;
+	String batch;
+	ArrayList<String> bookCart;
+	
+	public Student(String firstName, String batch) {
+		this.firstName = firstName;
+		this.batch = batch;
+		bookCart = ArrayList<String>();
+	}
+	
+	public void borrowBook(String book) {
+		for (int i = 0; i < bookCart.length; i++) {
+			if (i < 3) {
+				bookCart.add(book);
+				System.out.println("This book isn't available!");
+			} else {
+				System.out.println("You could borrow only maximum 3 books");
+			}
+		}
+		
+	}
+	
+}
